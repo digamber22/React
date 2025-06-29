@@ -106,3 +106,17 @@ function App() {
   )
 }
 export default App
+
+/*
+useState – Allows you to add and manage state in functional components.
+"Used to store and update values inside a component."
+
+useCallback – Returns a memoized version of a callback to prevent unnecessary re-renders.
+"Used to optimize performance by memoizing functions."
+
+useEffect – Runs side effects like data fetching, DOM updates, or subscriptions after render.
+"Used to perform actions after rendering or when dependencies change."
+
+useRef – Creates a mutable reference that persists across renders without causing re-renders.
+"Used to access DOM elements or store mutable values that don’t trigger re-renders."
+*/ 
