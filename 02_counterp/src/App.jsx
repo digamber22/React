@@ -10,8 +10,20 @@ function App() {
 
   // let counter = 15 ;
   const addValue = () => {
-    if (counter < 20) {
-      chaiCounter(counter + 1)
+    // if (counter < 50) {              // imp interview q , is update +4 , ans not b/c useStage send value in batches
+    //   chaiCounter(counter + 1)
+    //   chaiCounter(counter + 1)
+    //   chaiCounter(counter + 1)
+    //   chaiCounter(counter + 1)
+
+    // }
+
+       if (counter < 50) {              // imp interview q , but here update in +4 b/c it gives last updated cnt 
+      chaiCounter(prevCount => prevCount + 1)   
+      chaiCounter(prevCount => prevCount + 1)
+      chaiCounter(prevCount => prevCount + 1)
+      chaiCounter(nextCnt => nextCnt + 1)        // may some other variable name also , But for readibility take same ;
+
     }
   }
 
