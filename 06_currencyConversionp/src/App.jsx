@@ -95,7 +95,7 @@ export default App
 
 
 /*
-hitesh sir code , app.jsx 
+                                                  hitesh sir code , app.jsx 
 import { useState } from 'react'
 import {InputBox} from './components'
 import useCurrencyInfo from './hooks/useCurrencyInfo'
